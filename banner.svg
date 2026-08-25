@@ -1,0 +1,44 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="100%" stop-color="#3a7bd5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <!-- subtle circuit-line decoration -->
+  <g stroke="#3a7bd5" stroke-opacity="0.25" stroke-width="2" fill="none">
+    <path d="M0 250 L120 250 L150 220 L300 220"/>
+    <path d="M1200 60 L1050 60 L1020 90 L880 90"/>
+    <path d="M1200 200 L1100 200 L1080 180 L950 180"/>
+    <circle cx="300" cy="220" r="4" fill="#00d2ff"/>
+    <circle cx="880" cy="90" r="4" fill="#00d2ff"/>
+    <circle cx="950" cy="180" r="4" fill="#00d2ff"/>
+  </g>
+
+  <text x="80" y="130" font-family="Segoe UI, Verdana, sans-serif" font-size="58" font-weight="700" fill="#ffffff">
+    Parth <tspan fill="url(#accent)">Patel</tspan>
+  </text>
+
+  <text x="82" y="175" font-family="Segoe UI, Verdana, sans-serif" font-size="24" fill="#a9c6d8">
+    Full-Stack Developer · AI/ML Enthusiast · Builder of Practical Products
+  </text>
+
+  <text x="82" y="215" font-family="Consolas, monospace" font-size="18" fill="#6fd3ff">
+    React · Flask · FastAPI · MongoDB · TypeScript · NLP
+  </text>
+
+  <rect x="80" y="235" width="46" height="4" rx="2" fill="url(#accent)"/>
+</svg>
